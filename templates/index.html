@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" type="text/css">
+
+		<title>home - rowan lupton</title>
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="/"><h1 class="brand">Living Tradition Web</h1></a>
+			<span class="filler"></span>
+			<span class="nowrap">
+				<a href="mailto:rowanlupton@gmail.com"><span class="fa fa-envelope"></span></a>
+				<a href="https://twitter.com/rowanlupton"><span class="fa fa-twitter"></span></a>
+			</span>
+			<span class="filler"></span>
+			<a href="web.livingtradition.tech"><span class="fa fa-volume-up">&nbsp;Sound</span></a>
+		</div>
+		<nav class="navbar navbar-toggleable-sm">
+			<div class="img-container">
+				<img src="{{ url_for('static', filename='images/navbar.jpg') }}" />
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				&#9776;
+      </button>
+
+			<ul class="collapse navbar-collapse" id="navbarSupportedContent">
+				<li class="nav-item">
+					<a class="nav-link active" href="/">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/about">About</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="wrapper mx-auto container-fluid">
+			<div class="row mx-auto">
+				<div class="col-md">
+					<div class="picture mx-auto">
+						<img src="{{ url_for('static', filename='images/rowan.jpg') }}" />
+					</div>
+
+				</div>
+
+				<div class="blurb col-md my-auto mx-auto">
+					<p>
+					Rowan has been working with computers and the web for as long as she can remember. Between an aptitude for learning new skills, lifelong immersion in the internet, and an appreciation for beautiful UI, Rowan is an excellent choice to build your next website.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</body>
+</html>

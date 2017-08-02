@@ -1,0 +1,29 @@
+// '_header.scss'
+
+.header {
+	width: 100%;
+	text-align: center;
+	h1 {
+		display: inline-block;
+		font-size: 8vw;
+		@media (min-width: 767px) {
+			font-size: 3em;
+		}
+	}
+
+	a {
+		color: #000;
+
+		.fa {
+			font-size: 2.5em;
+		}
+	}
+	a:hover {
+		color: #aaa;
+	}
+
+	.filler {
+		display: inline-block;
+		width: 10vw;
+	}
+}

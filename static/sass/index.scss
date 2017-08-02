@@ -1,0 +1,29 @@
+// 'index.scss'
+
+@import 'style';
+
+.wrapper {
+	.picture {
+		border-radius: 50%;
+		width: 100%;
+		max-width: 300px;
+
+		overflow: hidden;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.blurb {
+		text-align: center;
+		padding: 0;
+		width: 30vw;
+		min-width: 15em;
+
+		p {
+			width: inherit;
+			min-width: inherit;
+		}
+	}
+}

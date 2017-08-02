@@ -1,0 +1,15 @@
+// 'portfolio.scss'
+
+@import 'style';
+
+.wrapper {
+	.thumbnail {
+		width: 20vw;
+		min-width: 300px;
+	}
+	.featherlight-inner {
+		width: 90vw;
+		height: 90vh;
+	}
+}
+

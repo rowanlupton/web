@@ -1,0 +1,24 @@
+// 'style.scss'
+
+html, body, img {
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+}
+
+body {
+
+}
+
+@import 'header';
+@import 'navbar';
+
+.wrapper {
+	max-width: 80vw;
+	min-width: 15em;
+	margin-top: 1em;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
