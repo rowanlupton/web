@@ -1,8 +1,6 @@
 from flask import Flask, url_for, request, render_template, Markup
 app = Flask(__name__)
 
-db = MongoEngine(app)
-
 @app.route('/')
 def index():
 	return render_template('index.html')
