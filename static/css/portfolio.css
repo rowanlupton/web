@@ -108,7 +108,8 @@ body {
 footer {
   color: #ddd;
   min-height: 3em;
-  background-color: #6E4155; }
+  background-color: #6E4155;
+  margin-top: 1em; }
   footer .footer {
     display: flex;
     flex-wrap: wrap;
