@@ -1,13 +1,22 @@
 // 'style.scss'
 
+$sans-serif-font: 'Comfortaa', sans-serif;
+$serif-font: 'Enriqueta', serif;
+
+
 html, body, img {
 	padding: 0px;
 	margin: 0px;
 	max-width: 100%;
+	font-family: $serif-font;
 }
 
 body {
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $sans-serif-font;
 }
 
 @import 'header';
@@ -22,3 +31,5 @@ body {
 .nowrap {
 	white-space: nowrap;
 }
+
+@import 'footer'
