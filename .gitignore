@@ -1,0 +1,4 @@
+.sass-cache
+__pychache__
+venv/
+lib/python3.6/
