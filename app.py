@@ -1,5 +1,4 @@
 from flask import Flask, url_for, request, render_template, Markup
-from flask_mongoengine import MongoEngine
 app = Flask(__name__)
 
 db = MongoEngine(app)
