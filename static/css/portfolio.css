@@ -123,9 +123,9 @@ footer {
       border: 1px solid #ddd;
       margin-left: 2em;
       margin-right: 2em; }
-    footer .footer #soundNote a {
+    footer .footer #designedBy a, footer .footer #soundNote a {
       color: #ddd; }
-    footer .footer #soundNote a:hover {
+    footer .footer #designedBy a:hover, footer .footer #soundNote a:hover {
       color: #bb8da1;
       text-decoration: none; }
 
