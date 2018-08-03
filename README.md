@@ -1,2 +1,2 @@
 # web
-code for http://web.rowanlupton.com, on github for reasons of transparency and best practice
+code for [http://website.rowan.website](http://website.rowan.website), on github for reasons of transparency and best practice
