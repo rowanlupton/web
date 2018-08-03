@@ -140,9 +140,6 @@ footer {
     .wrapper .grid .thumbnail {
       width: 100%;
       box-shadow: 0 0 5px #000; }
-    .wrapper .grid .featherlight-inner {
-      width: 90vw;
-      height: 90vh; }
     .wrapper .grid #livingtradition-tech {
       grid-row: span 3; }
     .wrapper .grid #rowan-website {
@@ -161,5 +158,8 @@ footer {
       grid-row: span 2; }
   .wrapper .about {
     grid-column: 2 / 3; }
+  .wrapper .featherlight-inner {
+    width: 90vw;
+    height: 90vh; }
 
 /*# sourceMappingURL=portfolio.css.map */

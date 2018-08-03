@@ -16,10 +16,6 @@
             // min-width: 300px;
             box-shadow: 0 0 5px #000;
         }
-        .featherlight-inner {
-            width: 90vw;
-            height: 90vh;
-        }
 
         #livingtradition-tech {
             grid-row: span 3;
@@ -47,6 +43,11 @@
 
     .about {
         grid-column: 2 / 3;
+    }
+
+    .featherlight-inner {
+        width: 90vw;
+        height: 90vh;
     }
 }
 
