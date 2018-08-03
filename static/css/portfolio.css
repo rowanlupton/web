@@ -158,8 +158,5 @@ footer {
       grid-row: span 2; }
   .wrapper .about {
     grid-column: 2 / 3; }
-  .wrapper .featherlight-inner {
-    width: 90vw;
-    height: 90vh; }
 
 /*# sourceMappingURL=portfolio.css.map */
