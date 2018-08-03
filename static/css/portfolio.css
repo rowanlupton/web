@@ -138,7 +138,8 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem; }
     .wrapper .grid .thumbnail {
-      width: 100%;
+      width: 100%; }
+    .wrapper .grid .item {
       box-shadow: 0 0 5px #000; }
     .wrapper .grid #livingtradition-tech {
       grid-row: span 3; }
