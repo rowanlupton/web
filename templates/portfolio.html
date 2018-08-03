@@ -12,24 +12,35 @@
 {% endblock portfolio_active%}
 
 {% block content %}
-<div class="row">
-	<div class="col">
-		<a href="http://sarahpilzer.com" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
-		<img src="{{ url_for('static', filename='images/sarahpilzer.png') }}" class="thumbnail">
+<div class="grid">
+	<div class="item" id="livingtradition-tech">
+		<a href="https://livingtradition.tech" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
+		<img src="{{ url_for('static', filename='images/livingtradition-tech.png') }}" class="thumbnail">
 		</a>
 	</div>
-	<div class="col">
-		<a href="https://folk-post.herokuapp.com" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
-		<img src="{{ url_for('static', filename='images/folk-post.png') }}" class="thumbnail">
+	<div class="item" id="rowan-website">
+		<a href="https://rowan.website" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
+		<img src="{{ url_for('static', filename='images/rowan-website.png') }}" class="thumbnail">
+		</a>
+	</div>	
+	<div class="item" id="pylodon">
+		<a href="https://github.com/rowanlupton/pylodon">Pylodon, an ActivityPub social media server
+		{# <img src="{{ url_for('static', filename='images/ltsound.png') }}" class="thumbnail"> #}
 		</a>
 	</div>
-	<div class="col">
-		<a href="https://livingtraditionsound.herokuapp.com" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
-		<img src="{{ url_for('static', filename='images/ltsound.png') }}" class="thumbnail">
+	<div class="item" id="shoestring">
+		<a href="http://shoestring.rowan.website" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
+		<img src="{{ url_for('static', filename='images/shoestring.png') }}" class="thumbnail">
 		</a>
 	</div>
-	<div class="col">
-		<p>Rowan is happy to help you with whatever you need done: she'll build a website, advise you on building your own, manage server hosting and domain name registration, provide continuing support, and more. She is comfortable in Javascript, CSS, HTML, Wordpress, Python, and MongoDB, and quick to pick up whatever other tools you may use.</p>
+	<div class="item" id="fearlesscities">
+		<a href="https://fearlesscities.nyc" data-featherlight="iframe" data-featherlight-root=".wrapper" class="website-iframe">
+		<img src="{{ url_for('static', filename='images/fearlesscities.png') }}" class="thumbnail">
+		</a>
 	</div>
+</div>
+<div class="about">
+	<p>Rowan is happy to help you with whatever you need done: she'll build a website, advise you on building your own, manage server hosting and domain name registration, provide continuing support, and more. She is comfortable in Javascript, CSS, HTML, Wordpress, Python, and MongoDB, and quick to pick up whatever other tools you may use.</p>
+	<p>This page has a collection of websites which I have designed+implemented, collaborated on, implemented from others' design, and designed.</p>
 </div>
 {% endblock content %}

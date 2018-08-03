@@ -129,11 +129,37 @@ footer {
       color: #bb8da1;
       text-decoration: none; }
 
-.wrapper .thumbnail {
-  width: 20vw;
-  min-width: 300px; }
-.wrapper .featherlight-inner {
-  width: 90vw;
-  height: 90vh; }
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem; }
+  .wrapper .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem; }
+    .wrapper .grid .thumbnail {
+      width: 100%;
+      box-shadow: 0 0 5px #000; }
+    .wrapper .grid .featherlight-inner {
+      width: 90vw;
+      height: 90vh; }
+    .wrapper .grid #livingtradition-tech {
+      grid-row: span 3; }
+    .wrapper .grid #rowan-website {
+      grid-row: span 1; }
+    .wrapper .grid #pylodon {
+      grid-row: span 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background-color: #dadada; }
+    .wrapper .grid #shoestring {
+      grid-row: span 4; }
+    .wrapper .grid #fearlesscities {
+      grid-row: span 2; }
+  .wrapper .about {
+    grid-column: 2 / 3; }
 
 /*# sourceMappingURL=portfolio.css.map */
