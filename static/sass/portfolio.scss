@@ -14,9 +14,6 @@
         .thumbnail {
             width: 100%;
             // min-width: 300px;
-        }
-
-        .item {
             box-shadow: 0 0 5px #000;
         }
 
@@ -35,6 +32,8 @@
 
             padding: 1rem;
             background-color: #dadada;
+
+            box-shadow: 0 0 5px #000;
         }
         #shoestring {
             grid-row: span 4;

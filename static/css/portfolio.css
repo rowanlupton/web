@@ -138,8 +138,7 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem; }
     .wrapper .grid .thumbnail {
-      width: 100%; }
-    .wrapper .grid .item {
+      width: 100%;
       box-shadow: 0 0 5px #000; }
     .wrapper .grid #livingtradition-tech {
       grid-row: span 3; }
@@ -152,7 +151,8 @@ footer {
       align-items: center;
       justify-content: center;
       padding: 1rem;
-      background-color: #dadada; }
+      background-color: #dadada;
+      box-shadow: 0 0 5px #000; }
     .wrapper .grid #shoestring {
       grid-row: span 4; }
     .wrapper .grid #fearlesscities {
